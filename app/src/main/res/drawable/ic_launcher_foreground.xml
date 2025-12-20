@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central circular background element -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,14
+                          A40,40 0 1,1 53.999,14
+                          Z"/>
+
+    <!-- Left angle bracket < -->
+    <path
+        android:pathData="M38,38 L26,54 L38,70"
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <!-- Right angle bracket > -->
+    <path
+        android:pathData="M70,38 L82,54 L70,70"
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <!-- Slash / -->
+    <path
+        android:pathData="M56,34 L52,74"
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"/>
+
+    <!-- Progress dots as paths -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M40,82 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M54,82 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M68,82 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+</vector>
